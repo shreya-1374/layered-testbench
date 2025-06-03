@@ -1,0 +1,945 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Dec 22 20:27:15 2024
+# Process ID: 9092
+# Current directory: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15348 C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.xpr
+# Log file: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/vivado.log
+# Journal file: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram\vivado.jou
+# Running On        :DESKTOP-BP612DC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+# CPU Frequency     :1896 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17015 MB
+# Swap memory       :6979 MB
+# Total Virtual     :23994 MB
+# Available Virtual :16151 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/hp/Desktop/Verification/Dual_Port_Ram' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:45 ; elapsed = 00:00:21 . Memory (MB): peak = 1535.461 ; gain = 418.398
+update_compile_order -fileset sources_1
+close [ open {C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv} w ]
+add_files {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top DualPortRAM [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top DualPortRAM [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1/dual_port_ram.dcp to C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+launch_runs synth_1 -jobs 4
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs synth_1 -jobs 4
+[Tue Dec 24 12:20:02 2024] Launched synth_1...
+Run output will be captured here: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Dec 24 12:22:54 2024] Launched impl_1...
+Run output will be captured here: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Device 21-9227] Part: xc7k70tfbv676-1 does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1956.727 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2044.484 ; gain = 0.352
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2045.082 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2047.707 ; gain = 2.625
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 2048.551 ; gain = 0.355
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2048.551 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.470 . Memory (MB): peak = 2049.246 ; gain = 0.695
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.544 . Memory (MB): peak = 2049.246 ; gain = 4.164
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.544 . Memory (MB): peak = 2049.246 ; gain = 4.164
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2456.754 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:52 ; elapsed = 00:00:31 . Memory (MB): peak = 2555.527 ; gain = 746.094
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: DualPortRAM
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18364
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'data_mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "data_mem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port addr in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[3] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[3] in module DualPortRAM is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:28 . Memory (MB): peak = 3119.969 ; gain = 0.000
+7 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:28 . Memory (MB): peak = 3119.969 ; gain = 0.000
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3119.969 ; gain = 0.000
+close_design
+close_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3119.969 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: DualPortRAM
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'data_mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "data_mem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port addr in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[3] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[3] in module DualPortRAM is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:30 ; elapsed = 00:00:24 . Memory (MB): peak = 3119.969 ; gain = 0.000
+5 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 3119.969 ; gain = 0.000
+set_property top dual_port_ram [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+set_property top dual_port_ram [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'set_property' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dual_port_ram' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/dual_port_ram.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'dual_port_ram' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/dual_port_ram.sv:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:26 . Memory (MB): peak = 3119.969 ; gain = 0.000
+set_property top DualPortRAM [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'data_mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "data_mem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port addr in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[3] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[3] in module DualPortRAM is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:27 . Memory (MB): peak = 3119.969 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_2
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_2
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: DualPortRAM
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'data_mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "data_mem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port addr in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[3] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[3] in module DualPortRAM is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3119.969 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 3119.969 ; gain = 0.000
+5 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 3119.969 ; gain = 0.000
+current_design rtl_1
+current_design rtl_2
+close_design
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 3119.969 ; gain = 0.000
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3119.969 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 3119.969 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 3119.969 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3119.969 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 3119.969 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 3119.969 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 3119.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3119.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 3386.676 ; gain = 266.707
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 3415.035 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3415.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3415.035 ; gain = 0.000
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: DualPortRAM
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 3736.168 ; gain = 321.133
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'data_mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "data_mem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port addr in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_A[3] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[7] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[6] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[5] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[4] in module DualPortRAM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_B[3] in module DualPortRAM is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 3821.055 ; gain = 406.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 3821.055 ; gain = 406.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 3821.055 ; gain = 406.020
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 3821.055 ; gain = 406.020
+5 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 3821.055 ; gain = 406.020
+close [ open {C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/TEST.sv} w ]
+add_files {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/TEST.sv}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+set_property top TEST [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+set_property top TEST [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+set_property top dual_port_ram [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+set_property top TEST [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/utils_1/imports/synth_1/dual_port_ram.dcp with file C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1/DualPortRAM.dcp
+launch_runs synth_1 -jobs 4
+[Tue Dec 24 12:56:51 2024] Launched synth_1...
+Run output will be captured here: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+launch_runs impl_1 -jobs 4
+[Tue Dec 24 12:58:23 2024] Launched impl_1...
+Run output will be captured here: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/impl_1/runme.log
+current_design impl_1
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 3821.055 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 3821.055 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+current_design rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_2
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_2
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: TEST
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+3 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -rtl -rtl_skip_mlo -name rtl_2
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_2
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: TEST
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TEST' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/TEST.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'TEST' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/TEST.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 3821.055 ; gain = 0.000
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 3821.055 ; gain = 0.000
+current_design rtl_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+current_design rtl_2
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\TEST.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+export_ip_user_files -of_objects  [get_files {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/TEST.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/TEST.sv}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top DualPortRAM [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top DualPortRAM [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+current_design rtl_1
+close_design
+close_design
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/utils_1/imports/synth_1/dual_port_ram.dcp with file C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1/TEST.dcp
+launch_runs synth_1 -jobs 4
+[Tue Dec 24 16:21:49 2024] Launched synth_1...
+Run output will be captured here: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\dual_port_ram.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+launch_runs impl_1 -jobs 4
+[Tue Dec 24 16:23:06 2024] Launched impl_1...
+Run output will be captured here: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3821.055 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 3821.055 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3821.055 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+close_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3821.055 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: DualPortRAM
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+WARNING: [Synth 8-7129] Port addr in module DualPortRAM is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 3821.055 ; gain = 0.000
+5 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 3821.055 ; gain = 0.000
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 3821.055 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/dual_port_ram.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/dual_port_ram.sv}}
+close [ open {C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/packet.sv} w ]
+add_files {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/packet.sv}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\packet.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\DualPortRAM.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\packet.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\hp\Desktop\btech\sem 5\verification\Dual_Port_Ram\Dual_Port_Ram.srcs\sources_1\new\packet.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM' [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM' (0#1) [C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/DualPortRAM.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 3821.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3821.055 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:17 . Memory (MB): peak = 3821.055 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/packet.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.srcs/sources_1/new/packet.sv}}

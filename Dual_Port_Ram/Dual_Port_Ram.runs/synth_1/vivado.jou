@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Dec 24 16:21:53 2024
+# Process ID: 340
+# Current directory: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1
+# Command line: vivado.exe -log DualPortRAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DualPortRAM.tcl
+# Log file: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1/DualPortRAM.vds
+# Journal file: C:/Users/hp/Desktop/btech/sem 5/verification/Dual_Port_Ram/Dual_Port_Ram.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-BP612DC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+# CPU Frequency     :1896 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17015 MB
+# Swap memory       :6979 MB
+# Total Virtual     :23994 MB
+# Available Virtual :11968 MB
+#-----------------------------------------------------------
+source DualPortRAM.tcl -notrace
